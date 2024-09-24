@@ -10,9 +10,11 @@ This post is constantly updated with a brief summary of introdutory TwinCAT 3 PL
 
 Fortunately, we have colleagues who have developed great content, so I’ve included links to their blogs, as well as links to my other posts related to the topic.
 
-Remember that this page isn't affiliated with BECKHOFF and **MUST NOT** be used as a documentation. For that, please refer to the official BECKHOFF webpage.
+> Remember that this page isn't affiliated with BECKHOFF and **MUST NOT** be used as a official documentation. For that, please refer to the official BECKHOFF webpage.
+{: .prompt-danger }
 
-All my content is free and the main goal is to provide TUTORIALS. If you plan to use ANY of it in production or application, it MUST be thoroughly tested before implemented (use the code at your own risk).
+> All my content is free and the main goal is to provide TUTORIALS. If you plan to use ANY of it in production or application, it **MUST** be thoroughly tested before implemented (use the code at your own risk).
+{: .prompt-danger }
 
 
 The first one is my Brazilian colleague - automacaoweb, who developed a blog page with "everything you need to know" to get started with BECKHOFF technology:

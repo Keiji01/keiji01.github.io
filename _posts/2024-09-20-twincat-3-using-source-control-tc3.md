@@ -6,6 +6,12 @@ categories: [TwinCAT 3 PLC, 1. Using Source Control in TwinCAT (Git)]
 tags: [TwinCAT 3, Git, Source Control]
 ---
 
+> Remember that this page isn't affiliated with BECKHOFF and **MUST NOT** be used as a official documentation. For that, please refer to the official BECKHOFF webpage.
+{: .prompt-danger }
+
+> All my content is free and the main goal is to provide TUTORIALS. If you plan to use ANY of it in production or application, it **MUST** be thoroughly tested before implemented (use the code at your own risk).
+{: .prompt-danger }
+
 # Introduction
 
 In today's world, Automation and Machinery Technology (AT) are increasingly merging with Information Technology (IT). It's no surprise that the shortcuts and powerful tools from **traditional IT programming**, such as Data Analysis Tools and Dev/DevOps tools, are gradually making their way into the Automation Technology realm.
