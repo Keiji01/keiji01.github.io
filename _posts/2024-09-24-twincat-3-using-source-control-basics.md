@@ -20,7 +20,10 @@ My goals with this post are:
 1. To demonstrate that it’s possible to use only the TwinCAT 3 XAE Git Integrated tool called Team Explorer, and that we can achieve the expected results.
 2. To share some knowledge about best practices when using Git, especially in scenarios with more than one programmer.
 
-## Using Team Explorer to Manage Git Source Control 
+# Using Team Explorer to Manage Git Source Control 
+
+## GitHub
+### Creating a new GitHub repository
 
 In this tutorial, we'll use my personal GitHub to host a test repository (it’s possible to use other Git platforms, such as GitLab, for example).
 
@@ -36,6 +39,8 @@ In the settings tab, we must:
 
 ![Img](images/teamexplorer_post/repo_settings.png)
 
+### Cloning the GitHub repository using Team Explorer
+
 Now we've created a repository and want to copy the web URL to clone it on our local machine:
 
 ![Img](images/teamexplorer_post/clone_url.png)
@@ -48,9 +53,14 @@ With the repository URL in hand, we can use Team Explorer to clone this fresh ne
 
 ![Img](images/teamexplorer_post/new_repo_created.png)
 
+## TwinCAT 3 XAE Shell | Team Explorer
+### Creating a new XAE Project
+
 Now we can create a new TwinCAT XAE Project in the folder that we just cloned to our machine. In my case, the location is:  `C:\Users\lucas\source\repos\TestRepo\`
 
 ![Img](images/teamexplorer_post/creating_project.png)
+
+### Working with Changes Tab and .gitignore
 
 Now, if we look at the Changes tab, we should notice that we have changes in our local repository, as shown below:
 
@@ -75,6 +85,8 @@ Again, in [Jakob Sagatowski's Version Control video @43:10](https://youtu.be/1g6
 > To save time and space in this post, we won’t cover the compare tool again here.
 {: .prompt-info }
 
+### Staging changes and commit
+
 Still in the Changes tab, we can Stage (similar to "add" in Gitbash) the project changes. Here you can stage file-by-file or stage all changes in the solution. 
 
 ![Img](images/teamexplorer_post/stage_all.png)
@@ -88,6 +100,8 @@ After staging the desired files, we need to add a commit message and push these 
 > Always write a clear, concise message about what you did in this commit. Avoid generic texts like "Adding Some Changes" or "Adding customer requests"; prefer specific messages like "Adding new IFM pressure 4-20mA sensor logic" or "Removing inductive sensor for parts count".
 {: .prompt-warning }
 
+### Synchronization with GitHub | Sync Tab
+
 Finally, we can go to the Sync tab and push our changes to the GitHub cloud.
 
 ![Img](images/teamexplorer_post/sync_tab.png)
@@ -96,6 +110,8 @@ Finally, we can go to the Sync tab and push our changes to the GitHub cloud.
 If you're feeling lost in this process, refer to the flowchart below, developed by our colleague Jakob Sagatowski and shared (thanks again, Jakob!) in his [YouTube Tutorial](https://youtu.be/1g6eYnlzKtA?si=Q1ZPBDNcIXeMFeiM&t=925):
 
 ![Img](images/teamexplorer_post/jakob_flux.png)
+
+## Recommendations
 
 Now that we are almost done with Team Explorer Basics, I must recommend changes in TwinCAT settings to achieve the best results:
 
@@ -107,6 +123,8 @@ Now that we are almost done with Team Explorer Basics, I must recommend changes 
 6. [Enable Git Plugin](https://automacaoweb.wordpress.com/2022/08/02/vcs-habilitar-o-plugin-do-git/).
 
 This content above is available on our Brazilian colleague’s blog, Automação Web.
+
+## Final Question
 
 Finally, I want to address an important question when using source control plugins.
 

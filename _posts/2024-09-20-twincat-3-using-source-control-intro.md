@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TwinCAT 3 | Using Source Control in TwinCAT (Git) - Introduction
+title: TwinCAT 3 | Using Source Control in TwinCAT (Git) | Introduction
 date: 2024-09-20 14:38 -0300
 categories: [TwinCAT 3 PLC, 1. Using Source Control in TwinCAT (Git)]
 tags: [TwinCAT 3, Git, Source Control]
@@ -62,7 +62,7 @@ Despite what is common in the automation industry, Beckhoff provides us with the
 I recommend you continue your reading following one of these options below, based on which interface you want to work it:
 
 ## Using TwinCAT 3 Shell Git Interface - **Team Explorer** | My own content
-Link to my page content.
+[Link to my page content.]({% link _posts/2024-09-24-twincat-3-using-source-control-basics.md %})
 
 ## Using a mix of TortoiseGit and TwinCAT 3 Shell Git Interface - **Team Explorer** | Jakob Sagatoski
 [Jakob Sagatowski Tutorial | English](https://youtu.be/1g6eYnlzKtA?si=Xhk_yBzREBt3z2vj)
